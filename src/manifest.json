@@ -1,0 +1,20 @@
+{
+    "name": "NetGoLynx",
+    "version": "0.1",
+    "description": "Extension for forwarding go/links addresses straight to a NetGoLynx server.",
+    "homepage_url": "https://github.com/Cellivar/NetGoLynx",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "*://go/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    }
+}
