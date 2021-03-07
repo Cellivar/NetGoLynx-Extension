@@ -22,4 +22,6 @@ You get to keep your short links without needing to have `go` on your DNS search
 2. Type in the address of your server.
 3. Wait for it to connect.
 
+![Gif of inputtin the server url into the extension](docs/config_example.gif)
+
 At present the short link is not configurable, you must used the word `go` as your short link prefix for this extension to pick up on it. If that's something you'd like to have let me know by opening an issue on GitHub!
