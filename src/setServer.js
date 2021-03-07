@@ -98,7 +98,7 @@ function updateDisplay(displayText, lynxEmoji, displayUrlHelper) {
 }
 
 chrome.storage.sync.get(urlKey, function(results) {
-    if (urlKey) {
+    if (results[urlKey]) {
         serverInput.value = results[urlKey];
         indicateServerStatus(ServerStatusEnum.connected);
     } else {

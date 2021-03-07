@@ -1,7 +1,7 @@
 {
     "name": "NetGoLynx",
-    "version": "0.1",
-    "description": "Extension for forwarding go/links addresses straight to a NetGoLynx server.",
+    "version": "0.2",
+    "description": "Redirect go/links directly to a NetGoLynx server for a faster and more secure experience.",
     "homepage_url": "https://github.com/Cellivar/NetGoLynx",
     "manifest_version": 2,
     "permissions": [
@@ -11,10 +11,20 @@
         "*://go/*"
     ],
     "browser_action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+      }
     },
     "background": {
       "scripts": ["background.js"],
       "persistent": true
+    },
+    "icons": {
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png",
+      "128": "/images/icon128.png"
     }
 }
