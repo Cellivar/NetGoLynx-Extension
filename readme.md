@@ -2,6 +2,9 @@
 
 A browser extension for handling go/ link redirects when DNS redirection isn't an option.
 
+* ![chrome store badge](https://img.shields.io/chrome-web-store/v/mklkfomkjepmekcdknkpcnfmjhlcgjjf.svg)
+  * [Chrome Install Page](https://chrome.google.com/webstore/detail/netgolynx/mklkfomkjepmekcdknkpcnfmjhlcgjjf?hl=en-US)
+
 ## What?
 
 If you haven't seen [NetGoLynx](https://github.com/Cellivar/NetGoLynx) yet you should start there.
